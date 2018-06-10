@@ -9423,3 +9423,437 @@ Level flags = 7c
 Total triangle count: 8604
 Writing c:\users\gage sorrell\documents\github\de_alien\de_alienewer.bsp
 11 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\gage sorrell\documents\github\de_alien\de_alienewer.vmf
+Map revision 493
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\gage sorrell\documents\github\de_alien\de_alienewer.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (115841 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 326 texinfos to 258
+Reduced 7 texdatas to 7 (135 bytes to 135)
+Writing c:\users\gage sorrell\documents\github\de_alien\de_alienewer.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\users\gage sorrell\documents\github\de_alien\de_alienewer.bsp
+reading c:\users\gage sorrell\documents\github\de_alien\de_alienewer.prt
+ 851 portalclusters
+2403 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 24558 visible clusters (0.00%)
+Total clusters visible: 581719
+Average clusters visible: 683
+Building PAS...
+Average clusters audible: 850
+visdatasize:185657  compressed from 190624
+writing c:\users\gage sorrell\documents\github\de_alien\de_alienewer.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\gage sorrell\documents\github\de_alien\de_alienewer.bsp
+3184 faces
+2710431 square feet [390302144.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3184 patches before subdivision
+59662 patches after subdivision
+18 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4679221, max 657
+transfer lists:  35.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(198722, 319331, 316429)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(80033, 40424, 7130)
+Build Patch/Sample Hash Table(s).....Done<0.0168 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  22/1024         1056/49152    ( 2.1%) 
+brushes                307/8192         3684/98304    ( 3.7%) 
+brushsides            1909/65536       15272/524288   ( 2.9%) 
+planes                1098/65536       21960/1310720  ( 1.7%) 
+vertexes              4520/65536       54240/786432   ( 6.9%) 
+nodes                 2023/65536       64736/2097152  ( 3.1%) 
+texinfos               258/12288       18576/884736   ( 2.1%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3184/65536      178304/3670016  ( 4.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1336/65536       74816/3670016  ( 2.0%) 
+facebrushes            278/0             556/0        ( 0.0%) 
+facebrushlists        3184/0           12736/0        ( 0.0%) 
+leaves                2046/65536       65472/2097152  ( 3.1%) 
+leaffaces             3464/65536        6928/131072   ( 5.3%) 
+leafbrushes           1137/65536        2274/131072   ( 1.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            20312/512000      81248/2048000  ( 4.0%) 
+edges                10903/256000      43612/1024000  ( 4.3%) 
+LDR worldlights         17/8192         1700/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            285/32768        2850/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4077/65536        8154/131072   ( 6.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2712100/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      185657/16777216 ( 1.1%) 
+entdata               [variable]       22001/393216   ( 5.6%) 
+LDR ambient table     2046/65536        8184/262144   ( 3.1%) 
+HDR ambient table     2046/65536        8184/262144   ( 3.1%) 
+LDR leaf ambient      9053/65536      253484/1835008  (13.8%) 
+HDR leaf ambient      2046/65536       57288/1835008  ( 3.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/304      ( 0.3%) 
+pakfile               [variable]       74446/0        ( 0.0%) 
+physics               [variable]      115841/4194304  ( 2.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 8604
+Writing c:\users\gage sorrell\documents\github\de_alien\de_alienewer.bsp
+12 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\gage sorrell\documents\github\de_alien\de_alienewer.vmf
+Map revision 505
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\gage sorrell\documents\github\de_alien\de_alienewer.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (115841 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 326 texinfos to 258
+Reduced 7 texdatas to 7 (135 bytes to 135)
+Writing c:\users\gage sorrell\documents\github\de_alien\de_alienewer.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\users\gage sorrell\documents\github\de_alien\de_alienewer.bsp
+reading c:\users\gage sorrell\documents\github\de_alien\de_alienewer.prt
+ 846 portalclusters
+2402 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\gage sorrell\documents\github\de_alien\de_alienewer.vmf
+Map revision 505
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\gage sorrell\documents\github\de_alien\de_alienewer.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (115841 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 326 texinfos to 258
+Reduced 7 texdatas to 7 (135 bytes to 135)
+Writing c:\users\gage sorrell\documents\github\de_alien\de_alienewer.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\users\gage sorrell\documents\github\de_alien\de_alienewer.bsp
+reading c:\users\gage sorrell\documents\github\de_alien\de_alienewer.prt
+ 846 portalclusters
+2402 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\gage sorrell\documents\github\de_alien\de_alienewer.vmf
+Map revision 505
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\gage sorrell\documents\github\de_alien\de_alienewer.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (115841 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 326 texinfos to 258
+Reduced 7 texdatas to 7 (135 bytes to 135)
+Writing c:\users\gage sorrell\documents\github\de_alien\de_alienewer.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\users\gage sorrell\documents\github\de_alien\de_alienewer.bsp
+reading c:\users\gage sorrell\documents\github\de_alien\de_alienewer.prt
+ 846 portalclusters
+2402 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 23802 visible clusters (0.00%)
+Total clusters visible: 575538
+Average clusters visible: 680
+Building PAS...
+Average clusters audible: 845
+visdatasize:182824  compressed from 189504
+writing c:\users\gage sorrell\documents\github\de_alien\de_alienewer.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\gage sorrell\documents\github\de_alien\de_alienewer.bsp
+3173 faces
+2711696 square feet [390484224.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3173 patches before subdivision
+59667 patches after subdivision
+18 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4663411, max 651
+transfer lists:  35.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(198856, 319389, 316293)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(79946, 40327, 7232)
+Build Patch/Sample Hash Table(s).....Done<0.0139 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  22/1024         1056/49152    ( 2.1%) 
+brushes                307/8192         3684/98304    ( 3.7%) 
+brushsides            1908/65536       15264/524288   ( 2.9%) 
+planes                1090/65536       21800/1310720  ( 1.7%) 
+vertexes              4495/65536       53940/786432   ( 6.9%) 
+nodes                 2016/65536       64512/2097152  ( 3.1%) 
+texinfos               258/12288       18576/884736   ( 2.1%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3173/65536      177688/3670016  ( 4.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1338/65536       74928/3670016  ( 2.0%) 
+facebrushes            280/0             560/0        ( 0.0%) 
+facebrushlists        3173/0           12692/0        ( 0.0%) 
+leaves                2039/65536       65248/2097152  ( 3.1%) 
+leaffaces             3443/65536        6886/131072   ( 5.3%) 
+leafbrushes           1139/65536        2278/131072   ( 1.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            20246/512000      80984/2048000  ( 4.0%) 
+edges                10860/256000      43440/1024000  ( 4.2%) 
+LDR worldlights         17/8192         1700/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            279/32768        2790/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3984/65536        7968/131072   ( 6.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2715964/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      182824/16777216 ( 1.1%) 
+entdata               [variable]       22001/393216   ( 5.6%) 
+LDR ambient table     2039/65536        8156/262144   ( 3.1%) 
+HDR ambient table     2039/65536        8156/262144   ( 3.1%) 
+LDR leaf ambient      9049/65536      253372/1835008  (13.8%) 
+HDR leaf ambient      2039/65536       57092/1835008  ( 3.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/304      ( 0.3%) 
+pakfile               [variable]       74446/0        ( 0.0%) 
+physics               [variable]      115841/4194304  ( 2.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 8552
+Writing c:\users\gage sorrell\documents\github\de_alien\de_alienewer.bsp
+12 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\gage sorrell\documents\github\de_alien\de_alienewer.vmf
+Map revision 518
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\gage sorrell\documents\github\de_alien\de_alienewer.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (116249 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 332 texinfos to 264
+Reduced 7 texdatas to 7 (135 bytes to 135)
+Writing c:\users\gage sorrell\documents\github\de_alien\de_alienewer.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\users\gage sorrell\documents\github\de_alien\de_alienewer.bsp
+reading c:\users\gage sorrell\documents\github\de_alien\de_alienewer.prt
+ 868 portalclusters
+2484 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 24394 visible clusters (0.00%)
+Total clusters visible: 610162
+Average clusters visible: 702
+Building PAS...
+Average clusters audible: 867
+visdatasize:192793  compressed from 194432
+writing c:\users\gage sorrell\documents\github\de_alien\de_alienewer.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\gage sorrell\documents\github\de_alien\de_alienewer.bsp
+3212 faces
+2716438 square feet [391167168.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3212 patches before subdivision
+60486 patches after subdivision
+18 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4754137, max 667
+transfer lists:  36.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(200753, 323274, 321790)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(80341, 40887, 7765)
+Build Patch/Sample Hash Table(s).....Done<0.0143 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  22/1024         1056/49152    ( 2.1%) 
+brushes                308/8192         3696/98304    ( 3.8%) 
+brushsides            1909/65536       15272/524288   ( 2.9%) 
+planes                1092/65536       21840/1310720  ( 1.7%) 
+vertexes              4536/65536       54432/786432   ( 6.9%) 
+nodes                 2044/65536       65408/2097152  ( 3.1%) 
+texinfos               264/12288       19008/884736   ( 2.1%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3212/65536      179872/3670016  ( 4.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1349/65536       75544/3670016  ( 2.1%) 
+facebrushes            268/0             536/0        ( 0.0%) 
+facebrushlists        3212/0           12848/0        ( 0.0%) 
+leaves                2067/65536       66144/2097152  ( 3.2%) 
+leaffaces             3488/65536        6976/131072   ( 5.3%) 
+leafbrushes           1138/65536        2276/131072   ( 1.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            20484/512000      81936/2048000  ( 4.0%) 
+edges                10979/256000      43916/1024000  ( 4.3%) 
+LDR worldlights         17/8192         1700/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            284/32768        2840/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4005/65536        8010/131072   ( 6.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2746868/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      192793/16777216 ( 1.1%) 
+entdata               [variable]       22001/393216   ( 5.6%) 
+LDR ambient table     2067/65536        8268/262144   ( 3.2%) 
+HDR ambient table     2067/65536        8268/262144   ( 3.2%) 
+LDR leaf ambient      9173/65536      256844/1835008  (14.0%) 
+HDR leaf ambient      2067/65536       57876/1835008  ( 3.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/304      ( 0.3%) 
+pakfile               [variable]       74446/0        ( 0.0%) 
+physics               [variable]      116249/4194304  ( 2.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 8668
+Writing c:\users\gage sorrell\documents\github\de_alien\de_alienewer.bsp
+12 seconds elapsed
