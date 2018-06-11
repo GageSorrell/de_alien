@@ -1,0 +1,1 @@
+- [ ] Make most of walls destructable.
