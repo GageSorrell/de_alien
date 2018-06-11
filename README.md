@@ -1,1 +1,31 @@
 # de_alien
+
+Defusal map for *Counterstrike: Global Offensive*.
+
+`de_alien` takes place at a North American research facility opsrating on captured aliens.  A group of Terrorists have broken in to free the aliens.  Fight in a complex map with multiple routes among breathtaking visuals including alien autopsies, spacecraft, and top-secret technology.
+
+## Highlights
+
+Minimap:
+TODO
+
+A Site:
+TODO
+
+B Site:
+TODO
+
+Mid:
+TODO
+
+Long:
+TODO
+
+Tunnels:
+TODO
+
+The key, unique aspect of this map is its use of verticality: B Site is above T Spawn.  This allows for a quick route from Mid to B via Mid Stairs, and because Spawns are relatively unused parts of the map, overlapping sound is unlikely to be an issue.  What is also unique to this map is the use of teleporters—a mechanic justified by the map's theme of "aliens."
+
+## Feedback
+
+Please email me via `sorrgs01@students.ipfw.edu`, feel free to be detailed and critical, or brief and simple—any feedback is appreciated.
