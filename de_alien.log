@@ -22231,3 +22231,136 @@ Level flags = 7c
 Total triangle count: 6350
 Writing c:\users\gage sorrell\documents\github\de_alien\de_alien.bsp
 12 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\gage sorrell\documents\github\de_alien\de_alien.vmf
+Map revision 1208
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...Wrote c:\users\gage sorrell\documents\github\de_alien\de_alien.lin
+Areaportal leak ! File: c:\users\gage sorrell\documents\github\de_alien\de_alien.lin 
+Brush 10401: areaportal brush doesn't touch two areas
+
+Brush 10410: areaportal brush doesn't touch two areas
+
+Brush 10410: areaportal brush doesn't touch two areas
+done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\gage sorrell\documents\github\de_alien\de_alien.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (170887 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 705 texinfos to 452
+Reduced 8 texdatas to 8 (175 bytes to 175)
+Writing c:\users\gage sorrell\documents\github\de_alien\de_alien.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\users\gage sorrell\documents\github\de_alien\de_alien.bsp
+reading c:\users\gage sorrell\documents\github\de_alien\de_alien.prt
+1184 portalclusters
+3740 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 70548 visible clusters (0.00%)
+Total clusters visible: 1150456
+Average clusters visible: 971
+Building PAS...
+Average clusters audible: 1184
+visdatasize:357659  compressed from 359936
+writing c:\users\gage sorrell\documents\github\de_alien\de_alien.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\gage sorrell\documents\github\de_alien\de_alien.bsp
+2882 faces
+1 degenerate faces
+399859 square feet [57579696.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2881 patches before subdivision
+45407 patches after subdivision
+26 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3925231, max 605
+transfer lists:  29.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(133946, 91829, 85527)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(48466, 12083, 1865)
+Build Patch/Sample Hash Table(s).....Done<0.0104 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  35/1024         1680/49152    ( 3.4%) 
+brushes                455/8192         5460/98304    ( 5.6%) 
+brushsides            2784/65536       22272/524288   ( 4.2%) 
+planes                1406/65536       28120/1310720  ( 2.1%) 
+vertexes              5587/65536       67044/786432   ( 8.5%) 
+nodes                 2451/65536       78432/2097152  ( 3.7%) 
+texinfos               452/12288       32544/884736   ( 3.7%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2882/65536      161392/3670016  ( 4.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1588/65536       88928/3670016  ( 2.4%) 
+facebrushes             79/0             158/0        ( 0.0%) 
+facebrushlists        2882/0           11528/0        ( 0.0%) 
+leaves                2487/65536       79584/2097152  ( 3.8%) 
+leaffaces             3506/65536        7012/131072   ( 5.3%) 
+leafbrushes           1319/65536        2638/131072   ( 2.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            19889/512000      79556/2048000  ( 3.9%) 
+edges                11814/256000      47256/1024000  ( 4.6%) 
+LDR worldlights         26/8192         2600/819200   ( 0.3%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            305/32768        3050/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4872/65536        9744/131072   ( 7.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1961144/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      357659/16777216 ( 2.1%) 
+entdata               [variable]       25866/393216   ( 6.6%) 
+LDR ambient table     2487/65536        9948/262144   ( 3.8%) 
+HDR ambient table     2487/65536        9948/262144   ( 3.8%) 
+LDR leaf ambient     13785/65536      385980/1835008  (21.0%) 
+HDR leaf ambient      2487/65536       69636/1835008  ( 3.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/522      ( 0.2%) 
+pakfile               [variable]       74430/0        ( 0.0%) 
+physics               [variable]      170887/4194304  ( 4.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 7779
+Writing c:\users\gage sorrell\documents\github\de_alien\de_alien.bsp
+17 seconds elapsed
