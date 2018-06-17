@@ -26,6 +26,10 @@ TODO
 
 The key, unique aspect of this map is its use of verticality: B Site is above T Spawn.  This allows for a quick route from Mid to B via Mid Stairs, and because Spawns are relatively unused parts of the map, overlapping sound is unlikely to be an issue.  What is also unique to this map is the use of teleporters—a mechanic justified by the map's theme of "aliens."
 
+## Playtesting
+
+The map is not currently on the Workshop, so you must clone the repo, copy the map to the maps folder, and copy the texture files to the csgo/materials/ directory (you cannot get a VAC ban for adding materials, only modifying ones that come with the game).
+
 ## Feedback
 
-Please email me via `sorrgs01@students.ipfw.edu`, feel free to be detailed and critical, or brief and simple—any feedback is appreciated.
+Please email me via `sorrgs01@students.pfw.edu`, feel free to be detailed and critical, or brief and simple—any feedback is appreciated.
