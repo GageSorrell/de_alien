@@ -2,7 +2,7 @@
 
 Defusal map for *Counterstrike: Global Offensive*.
 
-`de_alien` takes place at a North American research facility opsrating on captured aliens.  A group of Terrorists have broken in to free the aliens.  Fight in a complex map with multiple routes among breathtaking visuals including alien autopsies, spacecraft, and top-secret technology.
+`de_alien` takes place at a North American research facility operating on captured aliens.  A group of Terrorists have broken in to free the aliens.  Fight in a complex map with multiple routes among breathtaking visuals including alien autopsies, spacecraft, and top-secret technology.
 
 ## Highlights
 
