@@ -1,6 +1,6 @@
 # de_alien
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/GageSorrell/1) [![Workshop](https://img.shields.io/badge/workshop-not%20yet%20uploaded-red.svg)](https://github.com/GageSorrell/de_alien/)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/GageSorrell/1) [![Workshop](https://img.shields.io/badge/Workshop-Not%20Yet%20uploaded-red.svg)](https://github.com/GageSorrell/de_alien/)
 
 Defusal map for *Counterstrike: Global Offensive*.
 
@@ -34,4 +34,4 @@ The map is not currently on the Workshop, so you must clone the repo, copy the m
 
 ## Feedback
 
-Please email me via `sorrgs01@students.pfw.edu`, feel free to be detailed and critical, or brief and simple—any feedback is appreciated.
+Please email me via `sorrgs01@students.ipfw.edu`, feel free to be detailed and critical, or brief and simple—any feedback is appreciated.
