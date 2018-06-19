@@ -1,8 +1,6 @@
 # de_alien
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/GageSorrell/1)
-
-[![Workshop](https://img.shields.io/badge/workshop-not%20yet%20uploaded-red.svg)](https://github.com/GageSorrell/de_alien/)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/GageSorrell/1) [![Workshop](https://img.shields.io/badge/workshop-not%20yet%20uploaded-red.svg)](https://github.com/GageSorrell/de_alien/)
 
 Defusal map for *Counterstrike: Global Offensive*.
 
