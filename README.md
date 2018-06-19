@@ -1,5 +1,9 @@
 # de_alien
 
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/GageSorrell/1)
+
+[![Workshop](https://img.shields.io/badge/workshop-not%20yet%20uploaded-red.svg)](https://github.com/GageSorrell/de_alien/)
+
 Defusal map for *Counterstrike: Global Offensive*.
 
 `de_alien` takes place at a North American research facility operating on captured aliens.  A group of Terrorists have broken in to free the aliens.  Fight in a complex map with multiple routes among breathtaking visuals including alien autopsies, spacecraft, and top-secret technology.
