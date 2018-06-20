@@ -28,7 +28,7 @@ TODO
 
 Alien Visitor:
 
-![Alien Visitor Face, Front](https://github.com/GageSorrell/de_alien/raw/master/screenshots/visitor_head_front.png =250x)
+![Alien Visitor Face, Front](https://github.com/GageSorrell/de_alien/raw/master/screenshots/visitor_head_front.png | width="250x250")
 
 The key, unique aspect of this map is its use of verticality: B Site is above T Spawn.  This allows for a quick route from Mid to B via Mid Stairs, and because Spawns are relatively unused parts of the map, overlapping sound is unlikely to be an issue.  What is also unique to this map is the use of teleporters—a mechanic justified by the map's theme of "aliens."
 
