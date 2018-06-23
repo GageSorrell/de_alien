@@ -1,3 +1,7 @@
+# Credits
+
+*See *`THANKKS.md`* for a list of playtesters and other feedback-giving people.*
+
 Many textures are from GameTextures.com (these are in a folder blacklisted by `.gitignore`.  All other textures are from the game itself.
 
 Thanks to 3kliksphilip and TopHATTwaffle for great tutorials, as well as various redditors and GameBanan users for their posts.
