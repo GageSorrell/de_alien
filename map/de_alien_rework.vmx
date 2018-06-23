@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7889"
-	"mapversion" "1705"
+	"mapversion" "1706"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1705"
+	"mapversion" "1706"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -479,6 +479,82 @@ world
 		editor
 		{
 			"color" "0 104 117"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "48468"
+		side
+		{
+			"id" "25899"
+			"plane" "(3530 2782 -530) (3734 2782 -530) (3734 2774 -530)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25900"
+			"plane" "(3530 2774 -716) (3734 2774 -716) (3734 2782 -716)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25901"
+			"plane" "(3530 2782 -530) (3530 2774 -530) (3530 2774 -716)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25902"
+			"plane" "(3734 2782 -716) (3734 2774 -716) (3734 2774 -530)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25903"
+			"plane" "(3734 2782 -530) (3530 2782 -530) (3530 2782 -716)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25904"
+			"plane" "(3734 2774 -716) (3530 2774 -716) (3530 2774 -530)"
+			"material" "DEV/DEV_MEASUREGENERIC01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 128 113"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
