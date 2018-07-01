@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7889"
-	"mapversion" "3915"
+	"mapversion" "3921"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "3915"
+	"mapversion" "3921"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -28,6 +28,82 @@ world
 	"message" "A group has infiltrated a secret research facility to help alien subjects escape."
 	"skyname" "sky_csgo_night02b"
 	"targetname" "Alien"
+	solid
+	{
+		"id" "100900"
+		side
+		{
+			"id" "36419"
+			"plane" "(1525 3903 -730) (1589 3903 -730) (1589 3839 -730)"
+			"material" "/PORTALTEXTURE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "36420"
+			"plane" "(1525 3839 -850) (1589 3839 -850) (1589 3903 -850)"
+			"material" "/PORTALTEXTURE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "36421"
+			"plane" "(1525 3903 -730) (1525 3839 -730) (1525 3839 -850)"
+			"material" "/PORTALTEXTURE"
+			"uaxis" "[0 1 0 -16] 0.125"
+			"vaxis" "[0 0 -1 0] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "36422"
+			"plane" "(1589 3903 -850) (1589 3839 -850) (1589 3839 -730)"
+			"material" "/PORTALTEXTURE"
+			"uaxis" "[0 1 0 -16] 0.125"
+			"vaxis" "[0 0 -1 0] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "36423"
+			"plane" "(1589 3903 -730) (1525 3903 -730) (1525 3903 -850)"
+			"material" "/PORTALTEXTURE"
+			"uaxis" "[1 0 0 16] 0.125"
+			"vaxis" "[0 0 -1 0] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "36424"
+			"plane" "(1589 3839 -850) (1525 3839 -850) (1525 3839 -730)"
+			"material" "/PORTALTEXTURE"
+			"uaxis" "[1 0 0 16] 0.125"
+			"vaxis" "[0 0 -1 0] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 133 178"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	solid
 	{
 		"id" "99447"
@@ -23207,7 +23283,7 @@ world
 		side
 		{
 			"id" "24600"
-			"plane" "(3557 2411 -866) (3549 2411 -866) (3549 2783 -680)"
+			"plane" "(3557 2411 -866) (3541 2411 -866) (3541 2783 -680)"
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 -28] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -23218,7 +23294,7 @@ world
 		side
 		{
 			"id" "24599"
-			"plane" "(3549 2783 -866) (3549 2411 -866) (3557 2411 -866)"
+			"plane" "(3541 2783 -866) (3541 2411 -866) (3557 2411 -866)"
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 -28] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -23229,7 +23305,7 @@ world
 		side
 		{
 			"id" "24598"
-			"plane" "(3549 2783 -680) (3549 2411 -866) (3549 2783 -866)"
+			"plane" "(3541 2783 -680) (3541 2411 -866) (3541 2783 -866)"
 			"material" "DEV/REFLECTIVITY_60"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -23251,7 +23327,7 @@ world
 		side
 		{
 			"id" "24596"
-			"plane" "(3549 2783 -866) (3557 2783 -866) (3557 2783 -680)"
+			"plane" "(3541 2783 -866) (3557 2783 -866) (3557 2783 -680)"
 			"material" "DEV/REFLECTIVITY_60"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -52578,7 +52654,7 @@ world
 		side
 		{
 			"id" "18831"
-			"plane" "(3549 2412 -713) (3549 2909 -457) (3557 2909 -457)"
+			"plane" "(3541 2412 -713) (3541 2909 -457) (3557 2909 -457)"
 			"material" "DEV/REFLECTIVITY_60"
 			"uaxis" "[1 0 0 -184] 0.125"
 			"vaxis" "[0 -1 0 0] 0.125"
@@ -52589,7 +52665,7 @@ world
 		side
 		{
 			"id" "18832"
-			"plane" "(3549 2908 -618) (3549 2411 -866) (3557 2411 -866)"
+			"plane" "(3541 2908 -618) (3541 2411 -866) (3557 2411 -866)"
 			"material" "DEV/REFLECTIVITY_60"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -52600,7 +52676,7 @@ world
 		side
 		{
 			"id" "18833"
-			"plane" "(3549 2909 -457) (3549 2412 -713) (3549 2411 -866)"
+			"plane" "(3541 2909 -457) (3541 2412 -713) (3541 2411 -866)"
 			"material" "DEV/REFLECTIVITY_60"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -52622,10 +52698,10 @@ world
 		side
 		{
 			"id" "18835"
-			"plane" "(3549 2908 -618) (3557 2908 -618) (3557 2909 -457)"
-			"material" "DEV/DEV_MEASUREGENERIC01B"
-			"uaxis" "[1 0 0 -28] 0.25"
-			"vaxis" "[0 0 -1 -120] 0.25"
+			"plane" "(3541 2908 -618) (3557 2908 -618) (3557 2909 -457)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -52633,7 +52709,7 @@ world
 		side
 		{
 			"id" "18836"
-			"plane" "(3557 2411 -866) (3549 2411 -866) (3549 2412 -713)"
+			"plane" "(3557 2411 -866) (3541 2411 -866) (3541 2412 -713)"
 			"material" "DEV/REFLECTIVITY_60"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
