@@ -1,1 +1,30 @@
-- [ ] Make most of walls destructable.
+- [ ] Make most of walls destructible.
+- [ ] Add graphic near portals that shows that nades can be tossed through.
+- [ ] Add well-kept bushes and trees outside
+- [ ] Fix overview locations of Sites in de_alien.txt
+- [ ] Raise A Site up and back and maybe provide Short option to A
+- [ ] Add light to CT Hall right shower room
+- [ ] Fix other door of CT Hall right (far door)
+- [ ] Add light to CT Right Lab
+- [ ] Make Knockoff ceiling windows breakable
+- [ ] Do B Site
+- [ ] Copy over todo's written on paper
+- [ ] Spice up Mid
+- [ ] Make sign for Mid portal
+- [ ] Raise height of entry corridor things connecting Spawn rooms to Halls and add trim to them
+- [ ] Fix lips of pretty much every automatic door
+- [ ] Add ceiling above portal from Under to A
+- [ ] Add portal to B in Under
+- [ ] Fix height of broken trim just outside of T Hall on the way to Knockoff
+- [ ] Add trim to door to the right of T Hall
+- [ ] Shorten time of wait in doors of CT Halls
+- [ ] Add sound effect to the decon rooms of CT Halls
+- [ ] Make scrolling textures for jump pads
+
+## Playtesting
+
+- [ ] Package custom content and upload to Workshop
+- [ ] Set up GOTV and other cfg files for playtesting (or just txt files to copy manually)
+- [ ] Confirm ten people
+- [ ] Set up Discord
+- [ ] Finish air firefight animation and make it have 20 percent chance of happening each round
