@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7889"
-	"mapversion" "5290"
+	"mapversion" "5297"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "2"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "5290"
+	"mapversion" "5297"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -28,6 +28,158 @@ world
 	"message" "A group has infiltrated a secret research facility to help alien subjects escape."
 	"skyname" "sky_csgo_night02b"
 	"targetname" "Alien"
+	solid
+	{
+		"id" "121187"
+		side
+		{
+			"id" "39764"
+			"plane" "(3392 160 -696) (3136 160 -696) (3136 162 -696)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "39765"
+			"plane" "(3392 162 -824) (3136 162 -824) (3136 160 -824)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "39766"
+			"plane" "(3392 160 -696) (3392 162 -696) (3392 162 -824)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "39767"
+			"plane" "(3136 160 -824) (3136 162 -824) (3136 162 -696)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "39768"
+			"plane" "(3136 160 -696) (3392 160 -696) (3392 160 -824)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "39769"
+			"plane" "(3136 162 -824) (3392 162 -824) (3392 162 -696)"
+			"material" "/THANKYOU"
+			"uaxis" "[-1 0 0 1024] 0.0625"
+			"vaxis" "[0 0 -1 -896] 0.0625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 233 242"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "121200"
+		side
+		{
+			"id" "39781"
+			"plane" "(3136 5376 -696) (3392 5376 -696) (3392 5374 -696)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 128] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "39780"
+			"plane" "(3136 5374 -824) (3392 5374 -824) (3392 5376 -824)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 128] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "39779"
+			"plane" "(3136 5376 -696) (3136 5374 -696) (3136 5374 -824)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[0 1 0 -128] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "39778"
+			"plane" "(3392 5376 -824) (3392 5374 -824) (3392 5374 -696)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[0 1 0 -128] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "39777"
+			"plane" "(3392 5376 -696) (3136 5376 -696) (3136 5376 -824)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "39776"
+			"plane" "(3392 5374 -824) (3136 5374 -824) (3136 5374 -696)"
+			"material" "/THANKYOU"
+			"uaxis" "[1 0 0 -1024] 0.0625"
+			"vaxis" "[0 0 -1 -896] 0.0625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 233 242"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	solid
 	{
 		"id" "119936"
@@ -176,82 +328,6 @@ world
 		editor
 		{
 			"color" "0 193 230"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "119938"
-		side
-		{
-			"id" "39198"
-			"plane" "(4064 3072 -256) (4064 3024 -304) (4048 3024 -304)"
-			"material" "DEV/REFLECTIVITY_60"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "39199"
-			"plane" "(4064 2976 -352) (4064 3072 -352) (4048 3072 -352)"
-			"material" "DEV/REFLECTIVITY_60"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "39200"
-			"plane" "(4048 3024 -304) (4048 2976 -352) (4048 3072 -352)"
-			"material" "DEV/REFLECTIVITY_60"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "39201"
-			"plane" "(4064 2976 -352) (4064 3024 -304) (4064 3072 -256)"
-			"material" "DEV/REFLECTIVITY_60"
-			"uaxis" "[0 0 0 0] 0.25"
-			"vaxis" "[0 0 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "39202"
-			"plane" "(4048 3072 -256) (4048 3072 -352) (4064 3072 -352)"
-			"material" "DEV/REFLECTIVITY_60"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "39203"
-			"plane" "(4048 2976 -352) (4048 3024 -304) (4064 3024 -304)"
-			"material" "DEV/REFLECTIVITY_60"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 239 196"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -55937,6 +56013,31 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -4768]"
+	}
+}
+entity
+{
+	"id" "120455"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "212 235 255 10"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "3264 4320 -784"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 entity
