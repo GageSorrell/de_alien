@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7889"
-	"mapversion" "5434"
+	"mapversion" "5436"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "5434"
+	"mapversion" "5436"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -53262,6 +53262,55 @@ entity
 }
 entity
 {
+	"id" "124637"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "8"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "player/347163__kinoton__firework-single-rocket.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "10000"
+	"spawnflags" "33"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "planeSound"
+	"volstart" "10"
+	"origin" "3339.26 2560.18 -847"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "124655"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMultiNewRound" "planeSoundPlaySound14-1"
+	}
+	"origin" "3252 2616 -810"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -2268]"
+	}
+}
+entity
+{
 	"id" "122162"
 	"classname" "func_brush"
 	"disableflashlight" "0"
@@ -105563,7 +105612,7 @@ entity
 {
 	"id" "31191"
 	"classname" "trigger_multiple"
-	"origin" "3004 1554 -794"
+	"origin" "3004 1166 -794"
 	"spawnflags" "4099"
 	"StartDisabled" "0"
 	"wait" "1"
@@ -105580,10 +105629,10 @@ entity
 		side
 		{
 			"id" "18404"
-			"plane" "(2884 1472 -730) (2884 1636 -730) (3124 1636 -730)"
+			"plane" "(2884 1084 -730) (2884 1248 -730) (3124 1248 -730)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 16] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -105591,10 +105640,10 @@ entity
 		side
 		{
 			"id" "18403"
-			"plane" "(2884 1636 -858) (2884 1472 -858) (3124 1472 -858)"
+			"plane" "(2884 1248 -858) (2884 1084 -858) (3124 1084 -858)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 16] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -105602,9 +105651,9 @@ entity
 		side
 		{
 			"id" "18402"
-			"plane" "(2884 1472 -858) (2884 1636 -858) (2884 1636 -730)"
+			"plane" "(2884 1084 -858) (2884 1248 -858) (2884 1248 -730)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 -16] 0.25"
+			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -24] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -105613,9 +105662,9 @@ entity
 		side
 		{
 			"id" "18401"
-			"plane" "(3124 1636 -858) (3124 1472 -858) (3124 1472 -730)"
+			"plane" "(3124 1248 -858) (3124 1084 -858) (3124 1084 -730)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 -16] 0.25"
+			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -24] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -105624,7 +105673,7 @@ entity
 		side
 		{
 			"id" "18400"
-			"plane" "(2884 1636 -858) (3124 1636 -858) (3124 1636 -730)"
+			"plane" "(2884 1248 -858) (3124 1248 -858) (3124 1248 -730)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -24] 0.25"
@@ -105635,7 +105684,7 @@ entity
 		side
 		{
 			"id" "18399"
-			"plane" "(3124 1472 -858) (2884 1472 -858) (2884 1472 -730)"
+			"plane" "(3124 1084 -858) (2884 1084 -858) (2884 1084 -730)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -24] 0.25"
@@ -106126,7 +106175,7 @@ entity
 {
 	"id" "31209"
 	"classname" "trigger_multiple"
-	"origin" "2999.5 1188 -794"
+	"origin" "3008.5 1548 -794"
 	"spawnflags" "4099"
 	"StartDisabled" "0"
 	"wait" "1"
@@ -106143,10 +106192,10 @@ entity
 		side
 		{
 			"id" "18440"
-			"plane" "(2879 1112 -730) (2879 1264 -730) (3120 1264 -730)"
+			"plane" "(2888 1472 -730) (2888 1624 -730) (3129 1624 -730)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 -44] 0.25"
-			"vaxis" "[0 -1 0 48] 0.25"
+			"uaxis" "[1 0 0 -16] 0.25"
+			"vaxis" "[0 -1 0 -48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -106154,10 +106203,10 @@ entity
 		side
 		{
 			"id" "18439"
-			"plane" "(2879 1264 -858) (2879 1112 -858) (3120 1112 -858)"
+			"plane" "(2888 1624 -858) (2888 1472 -858) (3129 1472 -858)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 -44] 0.25"
-			"vaxis" "[0 -1 0 48] 0.25"
+			"uaxis" "[1 0 0 -16] 0.25"
+			"vaxis" "[0 -1 0 -48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -106165,9 +106214,9 @@ entity
 		side
 		{
 			"id" "18438"
-			"plane" "(2879 1112 -858) (2879 1264 -858) (2879 1264 -730)"
+			"plane" "(2888 1472 -858) (2888 1624 -858) (2888 1624 -730)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 -48] 0.25"
+			"uaxis" "[0 1 0 48] 0.25"
 			"vaxis" "[0 0 -1 -24] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -106176,9 +106225,9 @@ entity
 		side
 		{
 			"id" "18437"
-			"plane" "(3120 1264 -858) (3120 1112 -858) (3120 1112 -730)"
+			"plane" "(3129 1624 -858) (3129 1472 -858) (3129 1472 -730)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 -48] 0.25"
+			"uaxis" "[0 1 0 48] 0.25"
 			"vaxis" "[0 0 -1 -24] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -106187,9 +106236,9 @@ entity
 		side
 		{
 			"id" "18436"
-			"plane" "(2879 1264 -858) (3120 1264 -858) (3120 1264 -730)"
+			"plane" "(2888 1624 -858) (3129 1624 -858) (3129 1624 -730)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 -44] 0.25"
+			"uaxis" "[1 0 0 -16] 0.25"
 			"vaxis" "[0 0 -1 -24] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -106198,9 +106247,9 @@ entity
 		side
 		{
 			"id" "18435"
-			"plane" "(3120 1112 -858) (2879 1112 -858) (2879 1112 -730)"
+			"plane" "(3129 1472 -858) (2888 1472 -858) (2888 1472 -730)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 -44] 0.25"
+			"uaxis" "[1 0 0 -16] 0.25"
 			"vaxis" "[0 0 -1 -24] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
