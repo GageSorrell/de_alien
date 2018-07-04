@@ -1,6 +1,6 @@
 - [ ] Make most of walls destructible.
 - [ ] Add graphic near portals that shows that nades can be tossed through.
-- [ ] Add well-kept bushes and trees outside
+- [x] Add well-kept bushes and trees outside
 - [ ] Fix overview locations of Sites in de_alien.txt
 - [ ] Raise A Site up and back and maybe provide Short option to A
 - [ ] Add light to CT Hall right shower room
@@ -19,7 +19,7 @@
 - [ ] Add trim to door to the right of T Hall
 - [ ] Shorten time of wait in doors of CT Halls
 - [ ] Add sound effect to the decon rooms of CT Halls
-- [ ] Make scrolling textures for jump pads
+- [x] Make scrolling textures for jump pads
 
 ## Playtesting
 
