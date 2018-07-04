@@ -20,6 +20,7 @@
 - [ ] Shorten time of wait in doors of CT Halls
 - [ ] Add sound effect to the decon rooms of CT Halls
 - [x] Make scrolling textures for jump pads
+- [ ] Add dotted lines on floors and / or walls to show where the trigger for doors are
 
 ## Playtesting
 
