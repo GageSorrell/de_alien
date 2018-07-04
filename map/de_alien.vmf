@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7889"
-	"mapversion" "5784"
+	"mapversion" "5796"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "5784"
+	"mapversion" "5796"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -28,6 +28,462 @@ world
 	"message" "A group has infiltrated a secret research facility to help alien subjects escape."
 	"skyname" "sky_csgo_night02b"
 	"targetname" "Alien"
+	solid
+	{
+		"id" "132145"
+		side
+		{
+			"id" "42989"
+			"plane" "(4272 3808 -720) (4272 4256 -720) (4288 4256 -720)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "42988"
+			"plane" "(4272 4256 -752) (4272 3808 -752) (4288 3808 -752)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "42987"
+			"plane" "(4272 3808 -752) (4272 4256 -752) (4272 4256 -720)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 424] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "42986"
+			"plane" "(4288 4256 -752) (4288 3808 -752) (4288 3808 -720)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 424] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "42985"
+			"plane" "(4272 4256 -752) (4288 4256 -752) (4288 4256 -720)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 424] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "42984"
+			"plane" "(4288 3808 -752) (4272 3808 -752) (4272 3808 -720)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 424] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 228 117"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "132147"
+		side
+		{
+			"id" "43001"
+			"plane" "(4274 3824 -752) (4274 4240 -752) (4286 4240 -752)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43000"
+			"plane" "(4274 4240 -816) (4274 3824 -816) (4286 3824 -816)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "42999"
+			"plane" "(4274 3824 -816) (4274 4240 -816) (4274 4240 -752)"
+			"material" "GLASS/HR_G/HR_GLASS_001"
+			"uaxis" "[0 1 0 -128] 1.75"
+			"vaxis" "[0 0 -1 -192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "42998"
+			"plane" "(4286 4240 -816) (4286 3824 -816) (4286 3824 -752)"
+			"material" "GLASS/HR_G/HR_GLASS_001"
+			"uaxis" "[0 1 0 -128] 1.75"
+			"vaxis" "[0 0 -1 -192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "42997"
+			"plane" "(4274 4240 -816) (4286 4240 -816) (4286 4240 -752)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 296] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "42996"
+			"plane" "(4286 3824 -816) (4274 3824 -816) (4274 3824 -752)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 296] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 228 117"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "132157"
+		side
+		{
+			"id" "43002"
+			"plane" "(4272 3824 -752) (4288 3824 -752) (4288 3808 -752)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43003"
+			"plane" "(4272 3808 -816) (4288 3808 -816) (4288 3824 -816)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43004"
+			"plane" "(4272 3824 -752) (4272 3808 -752) (4272 3808 -816)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43005"
+			"plane" "(4288 3824 -816) (4288 3808 -816) (4288 3808 -752)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43006"
+			"plane" "(4288 3824 -752) (4272 3824 -752) (4272 3824 -816)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43007"
+			"plane" "(4288 3808 -816) (4272 3808 -816) (4272 3808 -752)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 236 161"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "132194"
+		side
+		{
+			"id" "43019"
+			"plane" "(4272 3072 -816) (4272 3424 -816) (4288 3424 -816)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 -8] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43018"
+			"plane" "(4272 3424 -848) (4272 3072 -848) (4288 3072 -848)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -16] 0.25"
+			"vaxis" "[0 -1 0 -8] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43017"
+			"plane" "(4272 3072 -848) (4272 3424 -848) (4272 3424 -816)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[0 1 0 8] 0.25"
+			"vaxis" "[0 0 -1 -384] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43016"
+			"plane" "(4288 3424 -848) (4288 3072 -848) (4288 3072 -816)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[0 1 0 8] 0.25"
+			"vaxis" "[0 0 -1 -384] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43015"
+			"plane" "(4272 3424 -848) (4288 3424 -848) (4288 3424 -816)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 0 -1 -384] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43014"
+			"plane" "(4288 3072 -848) (4272 3072 -848) (4272 3072 -816)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 -80] 0.25"
+			"vaxis" "[0 0 -1 -88] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 197 134"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "132196"
+		side
+		{
+			"id" "43031"
+			"plane" "(4274 3072 -752) (4274 3408 -752) (4286 3408 -752)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 -1 0 -8] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43030"
+			"plane" "(4274 3408 -816) (4274 3072 -816) (4286 3072 -816)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -16] 0.25"
+			"vaxis" "[0 -1 0 -8] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43029"
+			"plane" "(4274 3072 -816) (4274 3408 -816) (4274 3408 -752)"
+			"material" "GLASS/HR_G/HR_GLASS_001"
+			"uaxis" "[0 1 0 -36.5715] 1.3125"
+			"vaxis" "[0 0 -1 -192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43028"
+			"plane" "(4286 3408 -816) (4286 3072 -816) (4286 3072 -752)"
+			"material" "GLASS/HR_G/HR_GLASS_001"
+			"uaxis" "[0 1 0 -36.5715] 1.3125"
+			"vaxis" "[0 0 -1 -192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43027"
+			"plane" "(4274 3408 -816) (4286 3408 -816) (4286 3408 -752)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 -36] 0.25"
+			"vaxis" "[0 0 -1 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43026"
+			"plane" "(4286 3072 -816) (4274 3072 -816) (4274 3072 -752)"
+			"material" "DEV/DEV_MEASUREGENERIC01B"
+			"uaxis" "[1 0 0 -80] 0.25"
+			"vaxis" "[0 0 -1 40] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 197 134"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "132208"
+		side
+		{
+			"id" "43043"
+			"plane" "(4272 3424 -752) (4288 3424 -752) (4288 3408 -752)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43042"
+			"plane" "(4272 3408 -816) (4288 3408 -816) (4288 3424 -816)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43041"
+			"plane" "(4272 3424 -752) (4272 3408 -752) (4272 3408 -816)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[0 1 0 64] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43040"
+			"plane" "(4288 3424 -816) (4288 3408 -816) (4288 3408 -752)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[0 1 0 64] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43039"
+			"plane" "(4288 3424 -752) (4272 3424 -752) (4272 3424 -816)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43038"
+			"plane" "(4288 3408 -816) (4272 3408 -816) (4272 3408 -752)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 236 161"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	solid
 	{
 		"id" "128351"
@@ -7680,7 +8136,7 @@ world
 		side
 		{
 			"id" "38172"
-			"plane" "(4336 3360 -848) (4320 3408 -832) (4480 3424 -832)"
+			"plane" "(4576 3072 -848) (4416 3056 -848) (4400 3104 -832)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -7691,7 +8147,7 @@ world
 		side
 		{
 			"id" "38173"
-			"plane" "(4320 3408 -848) (4336 3360 -848) (4496 3376 -848)"
+			"plane" "(4400 3104 -848) (4416 3056 -848) (4576 3072 -848)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -7702,7 +8158,7 @@ world
 		side
 		{
 			"id" "38174"
-			"plane" "(4320 3408 -848) (4320 3408 -832) (4336 3360 -848)"
+			"plane" "(4400 3104 -832) (4416 3056 -848) (4400 3104 -848)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -7713,7 +8169,7 @@ world
 		side
 		{
 			"id" "38175"
-			"plane" "(4480 3424 -832) (4480 3424 -848) (4496 3376 -848)"
+			"plane" "(4560 3120 -848) (4576 3072.01 -848) (4560 3120 -832)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -7724,7 +8180,7 @@ world
 		side
 		{
 			"id" "38176"
-			"plane" "(4480 3424 -848) (4480 3424 -832) (4320 3408 -832)"
+			"plane" "(4400 3104 -848) (4560 3120 -848) (4560 3120 -832)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -7745,7 +8201,7 @@ world
 		side
 		{
 			"id" "38192"
-			"plane" "(4448 3696 -832) (4304 3680 -832) (4288 3728 -848)"
+			"plane" "(4384 3376 -832) (4368 3424 -848) (4512 3440 -848)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
@@ -7756,7 +8212,7 @@ world
 		side
 		{
 			"id" "38191"
-			"plane" "(4432 3744 -848) (4288 3728 -848) (4304 3680 -848)"
+			"plane" "(4512 3440 -848) (4368 3424 -848) (4384 3376 -848)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
@@ -7767,7 +8223,7 @@ world
 		side
 		{
 			"id" "38190"
-			"plane" "(4448 3696 -832) (4432 3744 -848) (4448 3696 -848)"
+			"plane" "(4528 3392 -832) (4512 3439.98 -848) (4528 3392 -848)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -7778,7 +8234,7 @@ world
 		side
 		{
 			"id" "38189"
-			"plane" "(4304 3680 -848) (4288 3728 -848) (4304 3680 -832)"
+			"plane" "(4384 3376 -848) (4368 3424 -848) (4384 3376 -832)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -7789,7 +8245,7 @@ world
 		side
 		{
 			"id" "38188"
-			"plane" "(4304 3680 -832) (4448 3696 -832) (4448 3696 -848)"
+			"plane" "(4528 3392 -848) (4384 3376 -848) (4384 3376 -832)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -7810,7 +8266,7 @@ world
 		side
 		{
 			"id" "38193"
-			"plane" "(4560 3424 -848) (4480 3424 -832) (4448 3696 -832)"
+			"plane" "(4560 3120 -832) (4528 3392 -832) (4608 3392 -848)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -7821,7 +8277,7 @@ world
 		side
 		{
 			"id" "38194"
-			"plane" "(4528 3696 -848) (4448 3696 -848) (4480 3424 -848)"
+			"plane" "(4528 3392 -848) (4560 3120 -848) (4640 3120 -848)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -7832,7 +8288,7 @@ world
 		side
 		{
 			"id" "38195"
-			"plane" "(4480 3424 -848) (4448 3696 -848) (4448 3696 -832)"
+			"plane" "(4560 3120 -848) (4528 3392 -848) (4528 3392 -832)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -7843,7 +8299,7 @@ world
 		side
 		{
 			"id" "38197"
-			"plane" "(4448 3696 -848) (4528 3696 -848) (4448 3696 -832)"
+			"plane" "(4528 3392 -848) (4607.99 3392 -848) (4528 3392 -832)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -7854,7 +8310,7 @@ world
 		side
 		{
 			"id" "38198"
-			"plane" "(4480 3424 -832) (4560 3424 -848) (4480 3424 -848)"
+			"plane" "(4560 3120 -832) (4639.98 3120 -848) (4560 3120 -848)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -7875,7 +8331,7 @@ world
 		side
 		{
 			"id" "38208"
-			"plane" "(4304 3680 -832) (4320 3408 -832) (4240 3408 -848)"
+			"plane" "(4320 3104 -848) (4304 3376 -848) (4384 3376 -832)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
@@ -7886,7 +8342,7 @@ world
 		side
 		{
 			"id" "38207"
-			"plane" "(4320 3408 -848) (4304 3680 -848) (4224 3680 -848)"
+			"plane" "(4304 3376 -848) (4320 3104 -848) (4400 3104 -848)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
@@ -7897,7 +8353,7 @@ world
 		side
 		{
 			"id" "38206"
-			"plane" "(4320 3408 -848) (4320 3408 -832) (4304 3680 -832)"
+			"plane" "(4384 3376 -848) (4400 3104 -848) (4400 3104 -832)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -7908,7 +8364,7 @@ world
 		side
 		{
 			"id" "38205"
-			"plane" "(4240 3408 -848) (4320 3408 -832) (4320 3408 -848)"
+			"plane" "(4400 3104 -848) (4320 3104 -848) (4400 3104 -832)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -7919,7 +8375,7 @@ world
 		side
 		{
 			"id" "38204"
-			"plane" "(4224 3680 -848) (4304 3680 -848) (4304 3680 -832)"
+			"plane" "(4384 3376 -832) (4304 3376 -848) (4384 3376 -848)"
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -9883,7 +10339,7 @@ world
 		side
 		{
 			"id" "34961"
-			"plane" "(4272 3808 -720) (4272 4256 -720) (4288 4256 -720)"
+			"plane" "(4272 3808 -816) (4272 4256 -816) (4288 4256 -816)"
 			"material" "DEV/REFLECTIVITY_60"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -9905,7 +10361,7 @@ world
 		side
 		{
 			"id" "34963"
-			"plane" "(4272 3808 -848) (4272 4256 -848) (4272 4256 -720)"
+			"plane" "(4272 3808 -848) (4272 4256 -848) (4272 4256 -816)"
 			"material" "DEV/REFLECTIVITY_60"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 40] 0.25"
@@ -9916,7 +10372,7 @@ world
 		side
 		{
 			"id" "34964"
-			"plane" "(4288 4256 -848) (4288 3808 -848) (4288 3808 -720)"
+			"plane" "(4288 4256 -848) (4288 3808 -848) (4288 3808 -816)"
 			"material" "DEV/REFLECTIVITY_60"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 40] 0.25"
@@ -9927,7 +10383,7 @@ world
 		side
 		{
 			"id" "34965"
-			"plane" "(4272 4256 -848) (4288 4256 -848) (4288 4256 -720)"
+			"plane" "(4272 4256 -848) (4288 4256 -848) (4288 4256 -816)"
 			"material" "DEV/REFLECTIVITY_60"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 40] 0.25"
@@ -9938,7 +10394,7 @@ world
 		side
 		{
 			"id" "34966"
-			"plane" "(4288 3808 -848) (4272 3808 -848) (4272 3808 -720)"
+			"plane" "(4288 3808 -848) (4272 3808 -848) (4272 3808 -816)"
 			"material" "DEV/REFLECTIVITY_60"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 40] 0.25"
@@ -48675,10 +49131,10 @@ world
 		side
 		{
 			"id" "6464"
-			"plane" "(4272 3424 -858) (4272 3072 -858) (4288 3072 -858)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 -16] 0.25"
-			"vaxis" "[0 -1 0 -8] 0.25"
+			"plane" "(4272 3424 -752) (4272 3072 -752) (4288 3072 -752)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -48686,7 +49142,7 @@ world
 		side
 		{
 			"id" "6465"
-			"plane" "(4272 3072 -858) (4272 3424 -858) (4272 3424 -720)"
+			"plane" "(4272 3072 -752) (4272 3424 -752) (4272 3424 -720)"
 			"material" "DEV/REFLECTIVITY_60"
 			"uaxis" "[0 1 0 8] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -48697,7 +49153,7 @@ world
 		side
 		{
 			"id" "6466"
-			"plane" "(4288 3424 -858) (4288 3072 -858) (4288 3072 -720)"
+			"plane" "(4288 3424 -752) (4288 3072 -752) (4288 3072 -720)"
 			"material" "DEV/REFLECTIVITY_60"
 			"uaxis" "[0 1 0 8] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -48708,7 +49164,7 @@ world
 		side
 		{
 			"id" "6467"
-			"plane" "(4272 3424 -858) (4288 3424 -858) (4288 3424 -720)"
+			"plane" "(4272 3424 -752) (4288 3424 -752) (4288 3424 -720)"
 			"material" "DEV/REFLECTIVITY_60"
 			"uaxis" "[1 0 0 -36] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -48719,7 +49175,7 @@ world
 		side
 		{
 			"id" "6468"
-			"plane" "(4288 3072 -858) (4272 3072 -858) (4272 3072 -720)"
+			"plane" "(4288 3072 -752) (4272 3072 -752) (4272 3072 -720)"
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 -80] 0.25"
 			"vaxis" "[0 0 -1 -88] 0.25"
@@ -54107,6 +54563,981 @@ world
 }
 entity
 {
+	"id" "131985"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_dust/hr_dust/foliage/olive_tree_01b.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "4336 3968 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "132022"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_dust/hr_dust/foliage/olive_tree_01b.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "4464 3968 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "132026"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_dust/hr_dust/foliage/olive_tree_01b.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "4592 3968 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "132034"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_dust/hr_dust/foliage/olive_tree_01b.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "4720 3968 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "132046"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_inferno/bushgreensmall.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "4"
+	"origin" "4368 4176 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "132080"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_inferno/bushgreensmall.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "4"
+	"origin" "4560 4176 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "132084"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_inferno/bushgreensmall.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "4"
+	"origin" "4736 4176 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "132088"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_inferno/bushgreensmall.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "4"
+	"origin" "4640 4176 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "132092"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_inferno/bushgreensmall.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "4"
+	"origin" "4464 4176 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "132096"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_inferno/bushgreensmall.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "4"
+	"origin" "4416 4176 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "132100"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_inferno/bushgreensmall.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "4"
+	"origin" "4512 4176 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "132104"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_inferno/bushgreensmall.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "4"
+	"origin" "4592 4176 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "132108"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_inferno/bushgreensmall.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "4"
+	"origin" "4688 4176 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "132116"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_inferno/bushgreensmall.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "4"
+	"origin" "4368 4128 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "132120"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_inferno/bushgreensmall.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "4"
+	"origin" "4368 4080 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "132124"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_inferno/bushgreensmall.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "4"
+	"origin" "4368 4032 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "132128"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_inferno/bushgreensmall.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "4"
+	"origin" "4368 3984 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "132132"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_inferno/bushgreensmall.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "4"
+	"origin" "4368 3936 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "132136"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_inferno/bushgreensmall.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "4"
+	"origin" "4368 3888 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "132140"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_inferno/bushgreensmall.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "4"
+	"origin" "4368 3824 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "132160"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_inferno/bushgreensmall.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "4"
+	"origin" "4368 3760 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "132164"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_inferno/bushgreensmall.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "4"
+	"origin" "4368 3698 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "132168"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_inferno/bushgreensmall.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "4"
+	"origin" "4368 3632 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "132172"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_inferno/bushgreensmall.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "4"
+	"origin" "4368 3568 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "132176"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableflashlight" "0"
+	"disableselfshadowing" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"enablelightbounce" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_inferno/bushgreensmall.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "4"
+	"origin" "4368 3504 -847"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
 	"id" "130877"
 	"classname" "infodecal"
 	"angles" "0 0 0"
@@ -54130,10 +55561,10 @@ entity
 		side
 		{
 			"id" "42977"
-			"plane" "(4412.34 3782.77 -848) (4320 4036.49 -848) (4320 4036.49 -840)"
+			"plane" "(4588.34 3552 -848) (4496 3805.72 -848) (4496 3805.73 -840)"
 			"material" "DEV/REFLECTIVITY_60"
 			"uaxis" "[0 0 -1 4] 0.25"
-			"vaxis" "[-0.34202 0.939693 0 401.885] 0.25"
+			"vaxis" "[-0.34202 0.939693 0 486.062] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -54141,10 +55572,10 @@ entity
 		side
 		{
 			"id" "42976"
-			"plane" "(4447.8 4083 -848) (4540.14 3829.28 -848) (4540.14 3829.28 -840)"
+			"plane" "(4623.8 3852.23 -848) (4716.14 3598.52 -848) (4716.14 3598.51 -840)"
 			"material" "DEV/REFLECTIVITY_60"
 			"uaxis" "[0 0 -1 40] 0.25"
-			"vaxis" "[-0.34202 0.939693 0 91.7358] 0.25"
+			"vaxis" "[-0.34202 0.939693 0 175.913] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -54152,10 +55583,10 @@ entity
 		side
 		{
 			"id" "42975"
-			"plane" "(4412.34 3782.77 -840) (4320 4036.49 -840) (4447.8 4083 -840)"
+			"plane" "(4588.34 3552 -840) (4496 3805.72 -840) (4623.8 3852.23 -840)"
 			"material" "DEV/REFLECTIVITY_60"
-			"uaxis" "[0.34202 -0.939693 0 -401.885] 0.25"
-			"vaxis" "[0.939693 0.34202 0 -440.126] 0.25"
+			"uaxis" "[0.34202 -0.939693 0 -486.062] 0.25"
+			"vaxis" "[0.939693 0.34202 0 -273.964] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -54163,10 +55594,10 @@ entity
 		side
 		{
 			"id" "42974"
-			"plane" "(4320 4036.49 -848) (4412.34 3782.77 -848) (4540.14 3829.29 -848)"
+			"plane" "(4496 3805.73 -848) (4588.34 3552 -848) (4716.14 3598.52 -848)"
 			"material" "DEV/REFLECTIVITY_60"
-			"uaxis" "[0.34202 -0.939693 0 -121.887] 0.25"
-			"vaxis" "[0.939693 0.34202 0 -440.126] 0.25"
+			"uaxis" "[0.34202 -0.939693 0 -206.064] 0.25"
+			"vaxis" "[0.939693 0.34202 0 -273.964] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -54174,10 +55605,10 @@ entity
 		side
 		{
 			"id" "42973"
-			"plane" "(4540.14 3829.28 -840) (4540.14 3829.28 -848) (4412.35 3782.77 -848)"
+			"plane" "(4716.14 3598.51 -840) (4716.14 3598.51 -848) (4588.34 3552 -848)"
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 0 -1 -31.998] 0.25"
-			"vaxis" "[0.939693 0.34202 0 -48.1253] 0.25"
+			"vaxis" "[0.939693 0.34202 0 -9.96329] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -54185,10 +55616,10 @@ entity
 		side
 		{
 			"id" "42972"
-			"plane" "(4320 4036.49 -840) (4320 4036.49 -848) (4447.8 4083 -848)"
+			"plane" "(4496 3805.72 -840) (4496 3805.72 -848) (4623.8 3852.23 -848)"
 			"material" "DEV/REFLECTIVITY_60"
 			"uaxis" "[0 0 -1 12.002] 0.25"
-			"vaxis" "[0.939693 0.34202 0 -440.126] 0.25"
+			"vaxis" "[0.939693 0.34202 0 -273.964] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -80214,10 +81645,10 @@ entity
 		side
 		{
 			"id" "37792"
-			"plane" "(4304 3680 -848) (4304 3680 -832) (4320 3408 -832)"
+			"plane" "(4400 3103.99 -848) (4384 3376 -848) (4384 3376 -832)"
 			"material" "DEV/REFLECTIVITY_60"
 			"uaxis" "[0 0 -1 4] 0.25"
-			"vaxis" "[-0.0871557 0.996195 0 70.9139] 0.25"
+			"vaxis" "[-0.0871557 0.996195 0 286.177] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -80225,10 +81656,10 @@ entity
 		side
 		{
 			"id" "37791"
-			"plane" "(4480 3424 -848) (4480 3424 -832) (4447.98 3696 -832)"
+			"plane" "(4527.98 3392 -848) (4560 3120 -848) (4560 3120.01 -832)"
 			"material" "DEV/REFLECTIVITY_60"
 			"uaxis" "[0 0 -1 40] 0.25"
-			"vaxis" "[-0.0871557 0.996195 0 -26.2591] 0.25"
+			"vaxis" "[-0.0871557 0.996195 0 189.004] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -80236,10 +81667,10 @@ entity
 		side
 		{
 			"id" "37790"
-			"plane" "(4304 3680 -832) (4447.98 3696 -832) (4480 3424 -832)"
+			"plane" "(4400 3104 -832) (4384 3376 -832) (4527.98 3392 -832)"
 			"material" "DEV/REFLECTIVITY_60"
-			"uaxis" "[0.0871557 -0.996195 0 -70.9139] 0.25"
-			"vaxis" "[0.996195 0.0871557 0 -220.708] 0.25"
+			"uaxis" "[0.0871557 -0.996195 0 -286.177] 0.25"
+			"vaxis" "[0.996195 0.0871557 0 -433.509] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -80247,10 +81678,10 @@ entity
 		side
 		{
 			"id" "37789"
-			"plane" "(4320 3407.99 -848) (4480 3424 -848) (4447.98 3696 -848)"
+			"plane" "(4384 3376 -848) (4400 3104 -848) (4560 3120 -848)"
 			"material" "DEV/REFLECTIVITY_60"
-			"uaxis" "[0.0871557 -0.996195 0 -302.916] 0.25"
-			"vaxis" "[0.996195 0.0871557 0 -220.708] 0.25"
+			"uaxis" "[0.0871557 -0.996195 0 -6.17896] 0.25"
+			"vaxis" "[0.996195 0.0871557 0 -433.509] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -80258,10 +81689,10 @@ entity
 		side
 		{
 			"id" "37788"
-			"plane" "(4480 3424 -848) (4320 3407.99 -848) (4320 3408 -832)"
+			"plane" "(4560 3120 -832) (4560 3120 -848) (4400 3103.99 -848)"
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 0 -1 -31.998] 0.25"
-			"vaxis" "[0.996195 0.0871557 0 -84.7085] 0.25"
+			"vaxis" "[0.996195 0.0871557 0 -41.5096] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -80269,10 +81700,10 @@ entity
 		side
 		{
 			"id" "37787"
-			"plane" "(4304 3680 -848) (4447.98 3696 -848) (4447.98 3696 -832)"
+			"plane" "(4384 3376 -832) (4384 3376 -848) (4527.98 3392 -848)"
 			"material" "DEV/REFLECTIVITY_60"
 			"uaxis" "[0 0 -1 12.002] 0.25"
-			"vaxis" "[0.996195 0.0871557 0 -220.708] 0.25"
+			"vaxis" "[0.996195 0.0871557 0 -433.509] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -83700,10 +85131,10 @@ entity
 		side
 		{
 			"id" "38288"
-			"plane" "(4686.07 3841.02 -836) (4672.96 3831.84 -848) (4416 4198.82 -848)"
+			"plane" "(4734.07 3849.18 -836) (4720.96 3840 -848) (4464 4206.99 -848)"
 			"material" "DEV/REFLECTIVITY_60"
-			"uaxis" "[0.573576 -0.819152 0 -337.758] 0.25"
-			"vaxis" "[-0.819152 -0.573576 0 146.883] 0.25"
+			"uaxis" "[0.573576 -0.819152 0 -421.134] 0.25"
+			"vaxis" "[-0.819152 -0.573576 0 322.891] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -83711,10 +85142,10 @@ entity
 		side
 		{
 			"id" "38287"
-			"plane" "(4429.11 4208 -848) (4416 4198.82 -848) (4672.96 3831.84 -848)"
+			"plane" "(4477.11 4216.16 -848) (4464 4206.98 -848) (4720.96 3840 -848)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0.573576 -0.819152 0 -29.7581] 0.25"
-			"vaxis" "[-0.819152 -0.573576 0 2.88367] 0.25"
+			"uaxis" "[0.573576 -0.819152 0 -49.1343] 0.25"
+			"vaxis" "[-0.819152 -0.573576 0 50.8917] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -83722,9 +85153,9 @@ entity
 		side
 		{
 			"id" "38286"
-			"plane" "(4429.11 4208 -836) (4416 4198.82 -848) (4429.11 4208 -848)"
+			"plane" "(4477.11 4216.16 -836) (4464 4206.98 -848) (4477.11 4216.16 -848)"
 			"material" "DEV/REFLECTIVITY_60"
-			"uaxis" "[0.819152 0.573576 0 -386.884] 0.25"
+			"uaxis" "[0.819152 0.573576 0 -50.892] 0.25"
 			"vaxis" "[0 0 -1 72] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -83733,9 +85164,9 @@ entity
 		side
 		{
 			"id" "38285"
-			"plane" "(4686.07 3841.02 -848) (4672.96 3831.84 -848) (4686.07 3841.02 -836)"
+			"plane" "(4734.07 3849.18 -848) (4720.96 3840.01 -848) (4734.07 3849.19 -836)"
 			"material" "DEV/REFLECTIVITY_60"
-			"uaxis" "[0.819152 0.573576 0 -38.8834] 0.25"
+			"uaxis" "[0.819152 0.573576 0 -214.891] 0.25"
 			"vaxis" "[0 0 -1 40] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -83744,9 +85175,9 @@ entity
 		side
 		{
 			"id" "38284"
-			"plane" "(4429.11 4208 -848) (4686.07 3841.02 -848) (4686.07 3841.02 -836)"
+			"plane" "(4477.11 4216.16 -848) (4734.07 3849.18 -848) (4734.07 3849.18 -836)"
 			"material" "DEV/REFLECTIVITY_60"
-			"uaxis" "[0.573576 -0.819152 0 -220.253] 0.25"
+			"uaxis" "[0.573576 -0.819152 0 -303.629] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
