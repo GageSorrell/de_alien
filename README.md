@@ -26,15 +26,11 @@ TODO
 Tunnels:
 TODO
 
-Alien Visitor:
-
-<img src="https://github.com/GageSorrell/de_alien/raw/master/screenshots/visitor_head_front.png" width="250">
-
-The key, unique aspect of this map is its use of verticality: B Site is above T Spawn.  This allows for a quick route from Mid to B via Mid Stairs, and because Spawns are relatively unused parts of the map, overlapping sound is unlikely to be an issue.  What is also unique to this map is the use of teleporters—a mechanic justified by the map's theme of "aliens."
+The most unique aspect of this map is its use of portals and jump pads: tedious ladders are gone, and what is more impactful is that B Site is on an alien planet, detached from the rest of the map, and can only be accessed via portals in the map.
 
 ## Playtesting
 
-The map is not currently on the Workshop, so you must clone the repo, copy the map to the maps folder, and copy the texture files to the csgo/materials/ directory (you cannot get a VAC ban for adding materials, only modifying ones that come with the game).
+The map can be downloaded from the Workshop, but it will not be the most current iteration of the map; if you want current version, copy the BSP file from the `map/` folder and copy it to your `maps` directory.
 
 ## Feedback
 
