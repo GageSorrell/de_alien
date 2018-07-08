@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7901"
-	"mapversion" "6951"
+	"mapversion" "6958"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "6951"
+	"mapversion" "6958"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -28,6 +28,82 @@ world
 	"message" "A group has infiltrated a secret research facility to help alien subjects escape."
 	"skyname" "sky_csgo_night02b"
 	"targetname" "Alien"
+	solid
+	{
+		"id" "180585"
+		side
+		{
+			"id" "46510"
+			"plane" "(4800 3376 -704) (4816 3376 -704) (4816 3360 -704)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "46511"
+			"plane" "(4800 3360 -848) (4816 3360 -848) (4816 3376 -848)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "46512"
+			"plane" "(4800 3376 -704) (4800 3360 -704) (4800 3360 -848)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "46513"
+			"plane" "(4816 3376 -848) (4816 3360 -848) (4816 3360 -704)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "46514"
+			"plane" "(4816 3376 -704) (4800 3376 -704) (4800 3376 -848)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "46515"
+			"plane" "(4816 3360 -848) (4800 3360 -848) (4800 3360 -704)"
+			"material" "DEV/REFLECTIVITY_60"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 131 196"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	solid
 	{
 		"id" "179362"
@@ -54774,12 +54850,12 @@ entity
 {
 	"id" "179421"
 	"classname" "trigger_multiple"
-	"origin" "4176 3144 -788"
+	"origin" "4176 3144 -836"
 	"spawnflags" "64"
 	"wait" "1"
 	connections
 	{
-		"OnTrigger" "!activatorAddOutputbasevelocity 0 0 3500-1"
+		"OnTrigger" "!activatorAddOutputbasevelocity 0 0 4750-1"
 	}
 	solid
 	{
@@ -54787,7 +54863,7 @@ entity
 		side
 		{
 			"id" "46467"
-			"plane" "(4112 3104 -736) (4112 3184 -736) (4240 3184 -736)"
+			"plane" "(4112 3104 -832) (4112 3184 -832) (4240 3184 -832)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -54809,7 +54885,7 @@ entity
 		side
 		{
 			"id" "46465"
-			"plane" "(4112 3104 -840) (4112 3184 -840) (4112 3184 -736)"
+			"plane" "(4112 3104 -840) (4112 3184 -840) (4112 3184 -832)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -54820,7 +54896,7 @@ entity
 		side
 		{
 			"id" "46464"
-			"plane" "(4240 3184 -840) (4240 3104 -840) (4240 3104 -736)"
+			"plane" "(4240 3184 -840) (4240 3104 -840) (4240 3104 -832)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -54831,7 +54907,7 @@ entity
 		side
 		{
 			"id" "46463"
-			"plane" "(4112 3184 -840) (4240 3184 -840) (4240 3184 -736)"
+			"plane" "(4112 3184 -840) (4240 3184 -840) (4240 3184 -832)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -54842,7 +54918,7 @@ entity
 		side
 		{
 			"id" "46462"
-			"plane" "(4240 3104 -840) (4112 3104 -840) (4112 3104 -736)"
+			"plane" "(4240 3104 -840) (4112 3104 -840) (4112 3104 -832)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -64392,7 +64468,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnTrigger" "!activatorAddOutputbasevelocity 0 100 00-1"
+		"OnTrigger" "!activatorAddOutputbasevelocity 0 -150 00-1"
 	}
 	solid
 	{
