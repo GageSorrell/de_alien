@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7901"
-	"mapversion" "7450"
+	"mapversion" "7454"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "7450"
+	"mapversion" "7454"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -61753,6 +61753,102 @@ entity
 }
 entity
 {
+	"id" "188022"
+	"classname" "trigger_multiple"
+	"origin" "5272 4416 -608"
+	"spawnflags" "4097"
+	"StartDisabled" "0"
+	"wait" "1"
+	connections
+	{
+		"OnTrigger" "!activatorAddOutputbasevelocity 0 100 00-1"
+	}
+	solid
+	{
+		"id" "188017"
+		side
+		{
+			"id" "49743"
+			"plane" "(5216 4480 -560) (5328 4480 -560) (5328 4352 -560)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "49742"
+			"plane" "(5216 4352 -656) (5328 4352 -656) (5328 4480 -656)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "49741"
+			"plane" "(5216 4480 -560) (5216 4352 -560) (5216 4352 -656)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "49740"
+			"plane" "(5328 4480 -656) (5328 4352 -656) (5328 4352 -560)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "49739"
+			"plane" "(5328 4480 -560) (5216 4480 -560) (5216 4480 -656)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "49738"
+			"plane" "(5328 4352 -656) (5216 4352 -656) (5216 4352 -560)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 13500]"
+	}
+}
+entity
+{
 	"id" "182050"
 	"classname" "trigger_multiple"
 	"origin" "2092 2636 -836"
@@ -117279,18 +117375,16 @@ entity
 entity
 {
 	"id" "48291"
-	"classname" "light"
-	"_constant_attn" "0"
-	"_distance" "0"
-	"_fifty_percent_distance" "0"
-	"_hardfalloff" "0"
+	"classname" "light_dynamic"
+	"_cone" "90"
+	"_inner_cone" "90"
 	"_light" "255 255 255 100"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_linear_attn" "0"
-	"_quadratic_attn" "1"
-	"_zero_percent_distance" "0"
+	"angles" "0 0 0"
+	"brightness" "100"
+	"distance" "120"
+	"pitch" "-90"
 	"spawnflags" "0"
+	"spotlight_radius" "80"
 	"style" "0"
 	"origin" "3008 1648 -768"
 	editor
