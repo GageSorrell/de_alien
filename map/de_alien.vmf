@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7901"
-	"mapversion" "7714"
+	"mapversion" "7717"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "7714"
+	"mapversion" "7717"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -590,7 +590,7 @@ world
 			"id" "48111"
 			"plane" "(4960 2768 -736) (4960 2928 -736) (4960 2928 -496)"
 			"material" "DEV/REFLECTIVITY_60"
-			"uaxis" "[0 1 0 424] 0.25"
+			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5462,7 +5462,7 @@ world
 		side
 		{
 			"id" "49779"
-			"plane" "(4960 2736 416) (4960 2752 416) (5776 2752 416)"
+			"plane" "(4976 2736 416) (4976 2752 416) (5776 2752 416)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -5473,7 +5473,7 @@ world
 		side
 		{
 			"id" "49778"
-			"plane" "(4960 2752 -688) (4960 2736 -688) (5776 2736 -688)"
+			"plane" "(4976 2752 -688) (4976 2736 -688) (5776 2736 -688)"
 			"material" "DEV/REFLECTIVITY_60"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -320] 0.25"
@@ -5484,7 +5484,7 @@ world
 		side
 		{
 			"id" "49777"
-			"plane" "(4960 2736 -688) (4960 2752 -688) (4960 2752 416)"
+			"plane" "(4976 2736 -688) (4976 2752 -688) (4976 2752 416)"
 			"material" "DEV/REFLECTIVITY_60"
 			"uaxis" "[0 1 0 320] 0.25"
 			"vaxis" "[0 0 -1 192] 0.25"
@@ -5506,7 +5506,7 @@ world
 		side
 		{
 			"id" "49775"
-			"plane" "(4960 2752 -688) (5776 2752 -688) (5776 2752 416)"
+			"plane" "(4976 2752 -688) (5776 2752 -688) (5776 2752 416)"
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 64] 0.25"
@@ -5517,7 +5517,7 @@ world
 		side
 		{
 			"id" "49774"
-			"plane" "(5776 2736 -688) (4960 2736 -688) (4960 2736 416)"
+			"plane" "(5776 2736 -688) (4976 2736 -688) (4976 2736 416)"
 			"material" "DEV/REFLECTIVITY_60"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 192] 0.25"
@@ -50083,7 +50083,7 @@ world
 			"id" "5871"
 			"plane" "(4960 2256 -864) (4960 2768 -864) (4960 2768 -496)"
 			"material" "DEV/REFLECTIVITY_60"
-			"uaxis" "[0 1 0 -24] 0.25"
+			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -62913,45 +62913,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 3500]"
-	}
-}
-entity
-{
-	"id" "187517"
-	"classname" "prop_static"
-	"angles" "0 180 0"
-	"disableflashlight" "0"
-	"disableselfshadowing" "0"
-	"disableshadowdepth" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"disableX360" "0"
-	"drawinfastreflection" "0"
-	"enablelightbounce" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"model" "models/props/de_nuke/hr_nuke/metal_door_001/metal_door_001_br.mdl"
-	"preventpropcombine" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"screenspacefade" "0"
-	"shadowdepthnocache" "0"
-	"skin" "0"
-	"solid" "6"
-	"uniformscale" ".75"
-	"origin" "4384 2176 -623"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 5000]"
 	}
 }
 entity
