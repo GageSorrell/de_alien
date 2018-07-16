@@ -30,7 +30,7 @@ The most unique aspect of this map is its use of portals and jump pads: tedious 
 
 ## Playtesting
 
-The map can be downloaded from the Workshop, but it will not be the most current iteration of the map; if you want current version, copy the BSP file from the `map/` folder and copy it to your `maps` directory.
+You can join our Discord [here](https://discord.gg/6kYWkTU), where each playtesting session is announced.  We do roughly one session per week.  You can also play the map by yourself by downloading it from the Workshop.
 
 ## Feedback
 
